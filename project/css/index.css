@@ -3,11 +3,11 @@
     padding: 0 !important;
   }
   .container-fluid .container {
-    background: #2196f3 !important;
+    background: #fafafa !important;
   }
   .container-fluid .container .project-item .project-item-box {
     background: #ffffff;
-    box-shadow: 0 2px 4px #ffffff !important;
+    box-shadow: 0 0 10px 4px #dcdcdc !important;
   }
 }
 .container-fluid {
