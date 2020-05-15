@@ -1,13 +1,23 @@
+@bg: #282c34;
+@bg2: #2196f3;
+@h1c: #333333;
+@h2c: #777777;
 @media (max-width: 575.98px) {
   .container-fluid {
     padding: 0 !important;
     .container {
-      background: #282c34 !important;
+      background: @bg2 !important;
+      .project-item {
+        .project-item-box {
+          background: #ffffff;
+          box-shadow: 0 2px 4px #ffffff !important;
+        }
+      }
     }
   }
 }
 .container-fluid {
-  background: #282c34;
+  background: @bg;
   min-height: 100vh;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -17,15 +27,43 @@
     background: #ffffff;
     .project-item {
       margin-bottom: 15px;
-      .img-box {
-        overflow: hidden;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px #ffffff;
-        .project-img {
-          width: 100%;
-          height: auto;
+      .project-item-box {
+        padding: 15px;
+        border-radius: 4px;
+        .img-box {
+          border-radius: 4px;
+          overflow: hidden;
+          .project-img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .desc_box {
+          margin-top: 15px;
+          .title {
+            font-size: 16px;
+            font-weight: bold;
+            color: @h1c;
+            word-wrap: break-word;
+          }
+          .desc {
+            font-size: 14px;
+            color: @h2c;
+          }
         }
       }
     }
+  }
+}
+.modal {
+  .qrcode {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .video {
+    width: 100%;
+    height: 100%;
+    display: block;
   }
 }
