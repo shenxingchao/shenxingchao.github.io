@@ -1,0 +1,1 @@
+import{_ as e}from"./index.a0d7761a.js";import{d as s,r as a,c as n,v as o,o as r,J as t}from"./vendor.77177042.js";const d=s({name:"nested1-2",components:{},setup:()=>({})}),m=t("nested1-2");var u=e(d,[["render",function(e,s,t,d,u,c){const f=a("el-row");return r(),n(f,null,{default:o((()=>[m])),_:1})}]]);export{u as default};
