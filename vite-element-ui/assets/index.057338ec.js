@@ -1,1 +1,0 @@
-import{d as n,m as a,q as u,a7 as c}from"./vendor.fc8b2226.js";const m=n({components:{},setup(){const e=a(),t=u(),{params:o,query:s}=t,{path:r}=o;return e.replace({path:"/"+r,query:s}),()=>c("div")}});export{m as default};

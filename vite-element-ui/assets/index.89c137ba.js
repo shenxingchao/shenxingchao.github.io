@@ -1,1 +1,0 @@
-import{_ as o}from"./index.9fc33944.js";import{d as n,r,c as t,o as s}from"./vendor.fc8b2226.js";const c=n({name:"nested1",components:{},setup(){return{}}});function a(p,_,d,f,i,m){const e=r("router-view");return s(),t(e)}var x=o(c,[["render",a]]);export{x as default};
