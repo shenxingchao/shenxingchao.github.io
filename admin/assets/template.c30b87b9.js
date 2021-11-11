@@ -1,0 +1,1 @@
+import{d as t}from"./mockProdServer.76f13105.js";function r(e){return t({url:"/Template/TemplateList",method:"get",params:e})}function l(e){return t({url:"/Template/TemplateDetail",method:"get",params:e})}function m(e){return t({url:"/Template/TemplateDelete",method:"delete",data:e})}export{m as a,l as b,r as t};
