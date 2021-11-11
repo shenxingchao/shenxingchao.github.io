@@ -1,0 +1,1 @@
+import{b as t}from"./componentInstall.9439a8f3.js";function l(e){return t({url:"/Template/TemplateList",method:"get",params:e})}function m(e){return t({url:"/Template/TemplateDetail",method:"get",params:e})}function r(e){return t({url:"/Template/TemplateDelete",method:"delete",data:e})}export{r as a,m as b,l as t};
