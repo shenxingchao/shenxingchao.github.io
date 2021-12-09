@@ -1,1 +1,0 @@
-import{d as a,D as n,F as u,ac as c}from"./vendor.769dab91.js";const d=a({components:{},setup(){const e=n(),t=u(),{params:o,query:s}=t,{path:r}=o;return e.replace({path:"/"+r,query:s}),()=>c("div")}});export{d as default};
