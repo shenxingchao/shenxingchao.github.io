@@ -1,0 +1,1 @@
+import{d as r,s as n,v as u,a8 as p}from"./vendor.e33a720a.js";const m=r({components:{},setup(){const e=n(),t=u(),{params:s,query:o}=t,{path:a}=s;return e.replace({path:"/"+a,query:o}),()=>p("div")}});export{m as default};
